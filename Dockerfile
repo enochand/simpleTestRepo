@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 EXPOSE 8080
 
-CMD /wait && python3 -u main.py
+CMD python3 -u main.py
